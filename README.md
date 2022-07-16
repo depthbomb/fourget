@@ -3,7 +3,7 @@
 		<tbody>
 			<td align="center">
 				<h1>fourget</h1>
-				<p>Download media from 4chan threads</p>
+				<p>CLI tool for downloading media from 4chan threads</p>
 				<p>
 					<a href="https://www.npmjs.com/package/fourget"><img src="https://img.shields.io/npm/v/fourget?color=crimson&label=fourget&logo=npm&style=flat-square"></a>
 					<a href="https://www.npmjs.com/package/fourget"><img src="https://img.shields.io/npm/dt/fourget?color=crimson&logo=npm&style=flat-square"></a>
