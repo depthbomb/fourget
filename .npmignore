@@ -1,10 +1,13 @@
 .github/
+.yarn/
 scripts/
 src/
 .eslintignore
 .eslintrc
 .gitignore
 .release-it.json
+.yarnrc.yml
 README.md
 tsconfig.eslint.json
 tsconfig.json
+tsup.config.ts
