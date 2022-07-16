@@ -1,5 +1,5 @@
 {
-	"version": "0.1.0-beta",
+	"version": "0.1.0",
 	"name": "fourget",
 	"description": "CLI tool for downloading media from 4chan threads",
 	"keywords": [
