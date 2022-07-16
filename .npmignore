@@ -1,0 +1,10 @@
+.github/
+scripts/
+src/
+.eslintignore
+.eslintrc
+.gitignore
+.release-it.json
+README.md
+tsconfig.eslint.json
+tsconfig.json
