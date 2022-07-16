@@ -1,4 +1,4 @@
-<p align="center" style="width:100%;">
+<p align="center">
 	<table>
 		<tbody>
 			<td align="center">
@@ -14,6 +14,7 @@
 					<a href="https://github.com/depthbomb/fourget/releases/latest"><img src="https://img.shields.io/github/release/depthbomb/fourget.svg?label=Stable&logo=github&style=flat-square"></a>
 					<a href="https://github.com/depthbomb/fourget"><img src="https://img.shields.io/github/repo-size/depthbomb/fourget.svg?label=Repo%20Size&logo=github&style=flat-square"></a>
 				</p>
+				<img width="2000" height="0">
 			</td>
 		</tbody>
 	</table>
