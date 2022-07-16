@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" style="width:100%;">
 	<table>
 		<tbody>
 			<td align="center">
@@ -14,10 +14,6 @@
 					<a href="https://github.com/depthbomb/fourget/releases/latest"><img src="https://img.shields.io/github/release/depthbomb/fourget.svg?label=Stable&logo=github&style=flat-square"></a>
 					<a href="https://github.com/depthbomb/fourget"><img src="https://img.shields.io/github/repo-size/depthbomb/fourget.svg?label=Repo%20Size&logo=github&style=flat-square"></a>
 				</p>
-				<p>
-					<a href="https://ko-fi.com/O4O1DV77" target="_blank"><img height="36" src="https://cdn.ko-fi.com/cdn/kofi1.png?v=3" alt="Buy Me a Coffee at ko-fi.com" /></a>
-				</p>
-				<img width="2000" height="0">
 			</td>
 		</tbody>
 	</table>
