@@ -1,13 +1,12 @@
 import { join }     from 'pathe';
 import { platform } from 'node:os';
 import { cwd }      from 'node:process';
-import { version }  from '~../package.json';
 
 const _os = platform();
 
 export const BINARY_LABEL   = 'fourget' as const;
 export const BINARY_NAME    = 'fourget' as const;
-export const BINARY_VERSION = version;
+export const BINARY_VERSION = '0.1.2';
 
 export const IS_WIN32       = _os === 'win32';
 export const IS_LINUX       = ['freebsd', 'openbsd', 'linux'].includes(_os);
