@@ -126,9 +126,13 @@ export class DownloadCommand extends Command<BaseContext> {
 		return joinURL('https://a.4cdn.org', board, 'thread', `${thread}.json`);
 	};
 
-	private async buildOutputDirectory(board: string, thread: string, sub: string): Promise<string> {
-		sub = sub.replace(/[|&;$%@"<>()+,]/g, '').replace(/\//g, '-');
-		return join(this.outputPath, board, `${thread} - ${sub}`);
+	private async buildOutputDirectory(board: string, thread: string, sub?: string): Promise<string> {
+		if (sub) {
+			sub = sub.replace(/[|&;$%@"<>()+,]/g, '').replace(/\//g, '-');
+			return join(this.outputPath, board, `${thread} - ${sub}`);
+		}
+
+		return join(this.outputPath, board, thread);
 	};
 
 	private async downloadFile(url: string, destination: string): Promise<void> {
