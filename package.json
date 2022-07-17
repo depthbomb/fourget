@@ -12,6 +12,13 @@
 	],
 	"main": "dist/cli.js",
 	"bin": "dist/cli.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/depthbomb/fourget.git"
+	},
+	"bugs": {
+		"url": "https://github.com/depthbomb/fourget/issues"
+	},
 	"scripts": {
 		"start": "node .",
 		"dist": "cross-env NODE_ENV=production tsup",
