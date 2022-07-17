@@ -1,4 +1,4 @@
-import { Cli, Builtins }   from 'clipanion';
+import { Cli }             from 'clipanion';
 import { DownloadCommand } from '~commands/download';
 
 async function boot(): Promise<void> {
@@ -9,8 +9,6 @@ async function boot(): Promise<void> {
 	});
 	
 	cli.register(DownloadCommand);
-	cli.register(Builtins.HelpCommand);
-	cli.register(Builtins.VersionCommand);
 	
 	await cli.runExit(process.argv.slice(2));
 };
