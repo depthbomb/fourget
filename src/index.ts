@@ -1,13 +1,11 @@
-import { Cli, Builtins }                             from 'clipanion';
-import { BINARY_NAME, BINARY_LABEL, BINARY_VERSION } from '~constants';
-import { DownloadCommand }                           from '~commands/download';
+import { Cli, Builtins }   from 'clipanion';
+import { DownloadCommand } from '~commands/download';
 
 async function boot(): Promise<void> {
-
 	const cli = new Cli({
-		binaryLabel: BINARY_LABEL,
-		binaryName: BINARY_NAME,
-		binaryVersion: BINARY_VERSION
+		binaryLabel: 'fourget',
+		binaryName: 'fourget',
+		binaryVersion: '0.2.0'
 	});
 	
 	cli.register(DownloadCommand);
