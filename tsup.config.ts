@@ -1,6 +1,4 @@
-import { defineConfig }   from 'tsup';
-import { builtinModules } from 'node:module';
-import { dependencies }   from './package.json';
+import { defineConfig } from 'tsup';
 
 export default defineConfig((options) => ({
 	clean: true,
@@ -10,11 +8,7 @@ export default defineConfig((options) => ({
 	format: 'cjs',
 	dts: false,
 	minify: true,
-	noExternal: [
-		...Object.keys(dependencies),
-		...builtinModules.flatMap(p => [p, `node:${p}`]),
-	],
-	skipNodeModulesBundle: false,
+	skipNodeModulesBundle: true,
 	target: 'node16',
 	tsconfig: './tsconfig.json',
 	splitting: true,
